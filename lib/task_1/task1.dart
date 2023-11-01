@@ -26,7 +26,8 @@ class Task extends StatelessWidget {
         ),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
-      persistentFooterButtons: [
+
+      persistentFooterButtons: [Container(color: Colors.red),
         ElevatedButton(
             onPressed: () {},
             style: ElevatedButton.styleFrom(backgroundColor: Colors.white),
@@ -40,7 +41,7 @@ class Task extends StatelessWidget {
             child: const Text(
               'previous',
               style: TextStyle(color: Colors.black),
-            ))
+            )),
       ],
       drawer: const Drawer(
         backgroundColor: Colors.greenAccent,
