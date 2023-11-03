@@ -4,16 +4,16 @@ class Home extends StatelessWidget{
   Widget build(BuildContext context) {
     return  Scaffold(
         appBar: AppBar(
-          title: Text("home page"),
+          title: const Text("home page"),
           backgroundColor: Colors.deepOrangeAccent,
         ),
         body: Container(
-          padding: EdgeInsets.all(20),
+          padding: const EdgeInsets.all(20),
           child: Column(
           //  crossAxisAlignment: CrossAxisAlignment.center,
             children: [
 
-              Text(
+              const Text(
                 "spectrum soft tech solution",
                 style: TextStyle(
                     fontSize: 18,
@@ -29,7 +29,7 @@ class Home extends StatelessWidget{
                 ),
               ),
 
-              Text(
+              const Text(
                 "flutter project",
                 style: TextStyle(
                   fontSize: 38,
