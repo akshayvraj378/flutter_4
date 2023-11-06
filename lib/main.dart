@@ -1,16 +1,11 @@
+
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'Part_4/assignment_1.dart';
-import 'Part_4/assignment_10.dart';
-import 'Part_4/assignment_11.dart';
-import 'Part_4/assignment_2.dart';
-import 'Part_4/assignment_3.dart';
-import 'Part_4/assignment_4.dart';
-import 'Part_4/assignment_5.dart';
-import 'Part_4/assignment_6.dart';
-import 'Part_4/assignment_7.dart';
-import 'Part_4/assignment_8.dart';
-import 'Part_4/assignment_9.dart';
+import 'listview_sample/listview2.dart';
+import 'listview_sample/listview3.dart';
+import 'listview_sample/listview4.dart';
+
 main(){
   runApp(const MyApp());
 }
@@ -20,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  const MaterialApp(
-      home:AS11(),
+      home:LS4(),
     );
   }
 }
