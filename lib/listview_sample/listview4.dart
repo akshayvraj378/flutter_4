@@ -23,9 +23,12 @@ class LS4 extends StatelessWidget {
                       border: Border.all(width: 1,color: Colors.black)),
 
               child: ListTile(
-                leading:  CircleAvatar(child: Image( image:
-                NetworkImage('${image[index]}')
-                )),
+                leading:  CircleAvatar(
+                    backgroundImage: NetworkImage('${image[index]}'),
+                //     child: Image( image:
+                // NetworkImage('${image[index]}')
+                // )
+          ),
                 title: Text('${name[index]}'),
                 subtitle: Text('${designation[index]}'),
                 trailing: Text('${salary[index]}'),

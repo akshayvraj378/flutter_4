@@ -2,6 +2,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import 'Trash_only/musicui.dart';
+import 'Trash_only/uidesign.dart';
+import 'Trash_only/www.dart';
 import 'listview_sample/listview2.dart';
 import 'listview_sample/listview3.dart';
 import 'listview_sample/listview4.dart';
@@ -14,8 +17,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  const MaterialApp(
-      home:LS4(),
+    return   const MaterialApp(
+      home:Music(),
     );
   }
 }
